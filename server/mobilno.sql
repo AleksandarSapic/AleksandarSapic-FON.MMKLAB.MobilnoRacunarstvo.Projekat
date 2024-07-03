@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS mobilno;
+
+USE mobilno;
+
+CREATE TABLE IF NOT EXISTS alerts (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    time DATETIME NOT NULL,
+    message varchar(255) NOT NULL
+);
